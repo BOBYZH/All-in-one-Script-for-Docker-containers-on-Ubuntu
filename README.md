@@ -1,15 +1,15 @@
 # lastupdate
-First and Last Up-to-date All-in-one Script
+All-in-one Script adapted from lyhcode's
 
 Install
 
 ```
-curl -fsSL https://raw.githubusercontent.com/lyhcode/lastupdate/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/BOBYZH/lastupdate/main/install.sh | bash
 ```
 
 Update
 
 
 ```
-curl -fsSL https://raw.githubusercontent.com/lyhcode/lastupdate/main/update.sh | bash
+curl -fsSL https://raw.githubusercontent.com/BOBYZH/lastupdate/main/update.sh | bash
 ```
