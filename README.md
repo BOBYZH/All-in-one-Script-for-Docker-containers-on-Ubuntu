@@ -1,15 +1,15 @@
-# lastupdate
-All-in-one Script adapted from lyhcode's
+# All-in-one-Script-for-Ubuntu
+All-in-one Script adapted from [lyhcode's](https://github.com/lyhcode/lastupdate)
 
 Install
 
 ```
-curl -fsSL https://raw.githubusercontent.com/BOBYZH/lastupdate/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/BOBYZH/All-in-one-Script-for-Ubuntu/main/install.sh | bash
 ```
 
 Update
 
 
 ```
-curl -fsSL https://raw.githubusercontent.com/BOBYZH/lastupdate/main/update.sh | bash
+curl -fsSL https://raw.githubusercontent.com/BOBYZH/All-in-one-Script-for-Ubuntu/main/update.sh | bash
 ```
