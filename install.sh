@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-# Setup script for setting up a new macos machine
-echo "Starting lastupdate"
+# Setup script for setting up a new ubuntu machine
+echo "Starting All-in-one-Script to install"
 
-## Setup /etc/sudoers for sudo without password prompt
-echo "Setup NOPASSWD for %staff"
-sudo grep -q '^%staff' /etc/sudoers || sudo sed -i '' 's/^%admin.*/&\n%staff          ALL = (ALL) NOPASSWD: ALL/' /etc/sudoers
+## Use root without password prompt
+echo "Use root without password"
+sudo su
 
 ## Command Line Tools for Xcode
 # echo "Install command line developer tools"
