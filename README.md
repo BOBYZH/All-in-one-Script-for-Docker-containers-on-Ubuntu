@@ -1,4 +1,4 @@
-# All-in-one-Script-for-Ubuntu
+# All-in-one Script for Docker containers on Ubuntu
 All-in-one Script adapted from [lyhcode's](https://github.com/lyhcode/lastupdate)
 
 Install
