@@ -1,13 +1,9 @@
 #!/usr/bin/env bash
 
-# Software Update Tool
-echo "Upgrade Mac OS X"
-softwareupdate -i -a
+# OS Update Tool(WIP)
+# echo "Upgrade Ubuntu"
 
-# Homebrew
-echo "Upgrading Homebrew"
-brew update
-brew upgrade
-
-# Upgrade all apps from App Store
-mas upgrade
+#  Upgrade packages
+echo "Upgrade packages"
+apt update
+apt upgrade
