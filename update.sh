@@ -1,19 +1,20 @@
+# (Still untested)
 #!/usr/bin/env bash
 
 ## Use root without password prompt
 echo "Use root without password"
 sudo su
 
-#  Upgrade packages
+##  Upgrade packages
 echo "Upgrade packages"
 apt update
 apt list --upgradable
 apt upgrade
 
-# Remove unused
+## Remove unused
 apt --purge autoremove -y
 
-## OS Update Tool(WIP) ref: do-release-upgrade -d
+## OS Update Tool(WIP) ref:https://www.cyberciti.biz/faq/upgrade-ubuntu-18-04-to-20-04-lts-using-command-line/
 # echo "Upgrade Ubuntu"
 # echo "Current version of OS and kernel"
 # lsb_release -a
